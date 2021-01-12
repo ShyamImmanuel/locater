@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "356179303795",
+    "project_id": "locater-38a1e",
+    "storage_bucket": "locater-38a1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356179303795:android:0b3cbcbb37722a6c54b906",
+        "android_client_info": {
+          "package_name": "com.example.locater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356179303795-d5tid8gqjeknaufleoipb6lrf2g5tmf4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.locater",
+            "certificate_hash": "737f3e6ac5b49671cbec45dd516622d92ea90a3b"
+          }
+        },
+        {
+          "client_id": "356179303795-lu77bvbluc5ufe7i0mi69pmjejl44opm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCurUpdo6Xf0nS6wlHbGo7c4PLjayVH2nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356179303795-lu77bvbluc5ufe7i0mi69pmjejl44opm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

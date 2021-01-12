@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settingGeoFence" >
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/geomap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/set"
+        android:text="Set"
+        map:layout_constraintTop_toBottomOf="@+id/geomap"
+        map:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
